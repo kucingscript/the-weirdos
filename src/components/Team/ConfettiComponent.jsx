@@ -9,7 +9,7 @@ function ConfettiComponent() {
       width={width}
       height={height * 1.6}
       numberOfPieces={150}
-      gravity={0.01}
+      gravity={0.02}
     />
   );
 }
