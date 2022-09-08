@@ -1,0 +1,10 @@
+export { default as img1 } from "./Nfts/bighead-1.svg";
+export { default as img2 } from "./Nfts/bighead-2.svg";
+export { default as img3 } from "./Nfts/bighead-3.svg";
+export { default as img4 } from "./Nfts/bighead-4.svg";
+export { default as img5 } from "./Nfts/bighead-5.svg";
+export { default as img6 } from "./Nfts/bighead-6.svg";
+export { default as img7 } from "./Nfts/bighead-7.svg";
+export { default as img8 } from "./Nfts/bighead-8.svg";
+export { default as img9 } from "./Nfts/bighead-9.svg";
+export { default as img10 } from "./Nfts/bighead-10.svg";

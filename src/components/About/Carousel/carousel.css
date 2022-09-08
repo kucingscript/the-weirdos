@@ -1,0 +1,21 @@
+.swiper-slide {
+  background-color: #eeedde;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #202020;
+}
+
+
+@media screen and (max-width: 576px) {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 0.4rem;
+  }
+}

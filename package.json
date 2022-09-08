@@ -1,0 +1,32 @@
+{
+  "name": "weirdos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/akaya-telivigala": "^4.5.7",
+    "@fontsource/sora": "^4.5.10",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-scroll": "^1.8.7",
+    "react-use": "^17.4.0",
+    "swiper": "^8.3.2",
+    "tailwindcss": "^3.1.8",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "vite": "^3.1.0"
+  }
+}
