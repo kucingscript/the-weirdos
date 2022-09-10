@@ -1,4 +1,4 @@
-import { Navbar, Home, About, Team } from "./components";
+import { Navbar, Home, About, Team, Faq } from "./components";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Home />
       <About />
       <Team />
+      <Faq />
     </div>
   );
 };

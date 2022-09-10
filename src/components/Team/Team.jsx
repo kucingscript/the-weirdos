@@ -38,12 +38,12 @@ function Team() {
   return (
     <section
       name="team"
-      className="w-full h-screen bg-white flex justify-center relative"
+      className="w-full max-w-h-screen bg-white relative flex justify-center"
     >
       <ConfettiComponent />
       {/* Container */}
-      <div className="container h-full text-center">
-        <h1 className="text-3xl font-bold md:tracking-wider mt-6 md:text-4xl">
+      <div className="container w-full h-full text-center">
+        <h1 className="text-3xl font-bold pt-6 md:text-4xl md:tracking-wider">
           Team
         </h1>
         {/* Item */}
