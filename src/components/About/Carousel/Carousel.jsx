@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { dataCarousel } from "../../data/dataImages";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -10,20 +11,9 @@ import "./carousel.css";
 
 import { EffectCards, Pagination, Navigation, Autoplay } from "swiper";
 
-import {
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-} from "../../../assets";
-
 function Carousel() {
+  const [datas, setDatas] = useState(dataCarousel);
+
   return (
     <div className="md:w-[25vw] md:h-[70vh]">
       <Swiper
@@ -43,36 +33,13 @@ function Carousel() {
         grabCursor={true}
         className="mySwiper h-[45vh] w-[60vw] md:h-full md:w-full"
       >
-        <SwiperSlide>
-          <img src={img1} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img2} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img3} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img4} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img5} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img6} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img7} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img8} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img9} alt="The Weirdos" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img10} alt="The Weirdos" />
-        </SwiperSlide>
+        {datas.map((data, index) => {
+          return (
+            <SwiperSlide key={index}>
+              <img src={data.imgUrl} alt="The Weirdos" />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </div>
   );
