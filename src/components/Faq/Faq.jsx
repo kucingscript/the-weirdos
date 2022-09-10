@@ -8,7 +8,7 @@ function Faq() {
       className="bg-primary text-white w-full max-w-h-screen relative flex flex-col md:items-center md:justify-center md:h-screen"
     >
       {/* container */}
-      <h1 className="text-3xl font-bold py-6 text-center md:py-0 md:text-4xl md:tracking-wider">
+      <h1 className="text-3xl font-bold pt-12 text-center md:pt-0 md:text-4xl md:tracking-wider">
         FAQ
       </h1>
       <div className="container flex flex-col md:flex-row justify-between md:space-x-28">
