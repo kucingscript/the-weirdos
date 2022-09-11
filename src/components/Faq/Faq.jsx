@@ -35,7 +35,7 @@ function Faq() {
     <section
       ref={ref}
       name="faq"
-      className="bg-primary text-white w-full max-w-h-screen relative flex flex-col md:items-center md:justify-center md:h-screen"
+      className="bg-primary text-white w-full h-screen relative flex flex-col md:items-center md:justify-center"
     >
       {/* container */}
       <h1 className="text-3xl font-bold pt-12 text-center md:pt-0 md:text-4xl md:tracking-wider">
