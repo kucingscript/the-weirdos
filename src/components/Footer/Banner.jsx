@@ -11,7 +11,7 @@ function Banner() {
         {/* Image  */}
         {datas.map((data, index) => {
           return (
-            <img src={data.imgUrl} alt="The Weirdos" className="w-36 md:w-60" />
+            <img src={data.imgUrl} alt="The Weirdos" className="w-32 md:w-60" />
           );
         })}
       </div>

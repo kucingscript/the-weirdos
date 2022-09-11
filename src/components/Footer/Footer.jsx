@@ -30,7 +30,7 @@ function Footer() {
   return (
     <footer
       name="footer"
-      className="w-full h-screen bg-white text-primary relative flex flex-col overflow-hidden"
+      className="w-full max-w-h-screen bg-white text-primary relative flex flex-col overflow-hidden"
     >
       <Banner />
 
@@ -72,7 +72,7 @@ function Footer() {
       </div>
 
       {/* copyright */}
-      <div className="container flex flex-col justify-between items-center text-xs pt-4 md:flex-row md:text-sm">
+      <div className="container flex flex-col justify-between items-center text-xs pt-4 pb-12 md:flex-row md:text-sm">
         <span>
           &copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.
         </span>
