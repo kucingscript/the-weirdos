@@ -30,7 +30,7 @@ function Footer() {
   return (
     <footer
       name="footer"
-      className="w-full max-w-h-screen bg-white text-primary relative flex flex-col overflow-hidden"
+      className="w-full h-screen bg-white text-primary relative flex flex-col overflow-hidden"
     >
       <Banner />
 
@@ -48,7 +48,7 @@ function Footer() {
                   href={item.link}
                   target={"_blank"}
                   rel={"noopener"}
-                  className="hover:scale-125 transition-all duration-200 ease-in text-xl md:text-2xl"
+                  className="hover:scale-125 transition-all duration-200 ease-in text-2xl"
                 >
                   {item.item}
                 </a>
@@ -72,7 +72,7 @@ function Footer() {
       </div>
 
       {/* copyright */}
-      <div className="container flex flex-col justify-between items-center text-xs pt-4 pb-12 md:flex-row md:text-sm">
+      <div className="container flex flex-col justify-between items-center text-xs pt-4 md:flex-row md:text-sm">
         <span>
           &copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.
         </span>

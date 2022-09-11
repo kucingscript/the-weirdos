@@ -11,12 +11,12 @@ function Banner() {
         {/* Image  */}
         {datas.map((data, index) => {
           return (
-            <img src={data.imgUrl} alt="The Weirdos" className="w-40 md:w-60" />
+            <img src={data.imgUrl} alt="The Weirdos" className="w-36 md:w-60" />
           );
         })}
       </div>
       {/* Title */}
-      <h1 className="w-full text-3xl  text-center font-bold z-10 md:pt-0 md:text-6xl md:tracking-wider">
+      <h1 className="w-full text-3xl px-6 text-center font-bold z-10 md:px-0 md:pt-0 md:text-6xl md:tracking-wider">
         Join the Weirdos Club
       </h1>
     </section>
