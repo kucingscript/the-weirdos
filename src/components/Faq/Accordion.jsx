@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaLongArrowAltDown, FaLongArrowAltUp } from "react-icons/fa";
 
 function Accordion({ title, children }) {
   const [collapse, setCollapse] = useState(false);
@@ -12,9 +13,13 @@ function Accordion({ title, children }) {
       >
         <span>{title}</span>
         {collapse ? (
-          <span className="text-2xl">-</span>
+          <span className="text-xl">
+            <FaLongArrowAltUp />
+          </span>
         ) : (
-          <span className="text-2xl">+</span>
+          <span className="text-xl">
+            <FaLongArrowAltDown />
+          </span>
         )}
       </div>
       <div

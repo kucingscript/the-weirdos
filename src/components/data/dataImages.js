@@ -39,3 +39,11 @@ export const dataTeam = [
   { imgUrl: img9, name: "Choco", position: "Database Administrator" },
   { imgUrl: img10, name: "Bullseye", position: "Back-End Developer" },
 ];
+
+export const dataBanner = [
+  { imgUrl: img6 },
+  { imgUrl: img7 },
+  { imgUrl: img8 },
+  { imgUrl: img9 },
+  { imgUrl: img10 },
+];

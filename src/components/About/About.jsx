@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       name="about"
-      className="w-full h-screen bg-primary flex justify-center items-center relative"
+      className="w-full h-screen bg-primary flex justify-center items-center relative overflow-hidden"
     >
       <div className="container h-full flex flex-col justify-center items-center md:flex-row">
         {/* Carousel */}
@@ -16,12 +16,8 @@ function About() {
         <div className="flex flex-col w-full justify-center items-center md:w-1/2">
           <div className="w-full px-4 text-center text-white md:px-0 md:text-left md:w-[80%]">
             <h1 className="text-2xl capitalize font-bold md:tracking-wider md:text-4xl">
-              Welcome To The{" "}
-              <span className="logo-font">
-                <br />
-                Weirdos
-              </span>{" "}
-              Club.
+              Welcome To The <br />
+              Weirdos Club.
             </h1>
             <p className="text-sm my-6 md:text-md">
               The WEIRDOS CLUB is a private collection of NFTs—unique digital

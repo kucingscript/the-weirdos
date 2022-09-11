@@ -4,7 +4,10 @@ import Video from "./Video";
 
 function Home() {
   return (
-    <section name="home" className="w-full h-screen relative md:h-[90vh]">
+    <section
+      name="home"
+      className="w-full h-screen relative overflow-hidden md:h-[90vh]"
+    >
       {/* Container */}
       <div className="container flex justify-center items-center flex-col-reverse first:mt-2 md:flex-row md:first:mt-0">
         {/* Left side */}

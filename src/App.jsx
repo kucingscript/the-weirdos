@@ -1,4 +1,12 @@
-import { Navbar, Home, About, Team, Faq } from "./components";
+import {
+  Navbar,
+  Home,
+  About,
+  Team,
+  Faq,
+  Footer,
+  ScrollToTop,
+} from "./components";
 
 const App = () => {
   return (
@@ -8,6 +16,8 @@ const App = () => {
       <About />
       <Team />
       <Faq />
+      <Footer />
+      <ScrollToTop />
     </div>
   );
 };

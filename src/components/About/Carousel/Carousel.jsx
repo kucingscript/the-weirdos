@@ -36,7 +36,11 @@ function Carousel() {
         {datas.map((data, index) => {
           return (
             <SwiperSlide key={index}>
-              <img src={data.imgUrl} alt="The Weirdos" />
+              <img
+                src={data.imgUrl}
+                alt="The Weirdos"
+                className="object-cover"
+              />
             </SwiperSlide>
           );
         })}
