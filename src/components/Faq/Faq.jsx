@@ -19,7 +19,7 @@ function Faq() {
 
     ScrollTrigger.create({
       trigger: element,
-      start: "center top",
+      start: "top top",
       end: "bottom top",
       pin: true,
       pinSpacing: false,

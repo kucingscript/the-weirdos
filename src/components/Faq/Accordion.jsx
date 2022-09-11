@@ -25,7 +25,7 @@ function Accordion({ title, children }) {
       <div
         className={
           collapse
-            ? "block my-2 text-justify text-white/60 text-sm leading-5"
+            ? "block my-2 text-justify text-white/60 text-xs leading-5 md:text-sm"
             : "hidden"
         }
       >
