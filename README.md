@@ -1,4 +1,4 @@
-# The Weirdos Bighead
+# The Weirdos Bigheads
 
 - [x] React
 - [x] Tailwind
