@@ -15,6 +15,16 @@ module.exports = {
       colors: {
         primary: "#202020",
       },
+      keyframes: {
+        move: {
+          "0%": {
+            transform: "translateX(100%)",
+          },
+          "100%": {
+            transform: "translateX(-100%)",
+          },
+        },
+      },
     },
   },
   plugins: [],

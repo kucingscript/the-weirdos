@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-function Button({ text, link, hide }) {
+function Button({ text, link }) {
   return (
     <Link to={link} duration={500} smooth={true}>
       <button

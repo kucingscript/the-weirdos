@@ -47,3 +47,19 @@ export const dataBanner = [
   { imgUrl: img9 },
   { imgUrl: img10 },
 ];
+
+export const dataShowcase1 = [
+  { imgUrl: img1, name: "852", price: "1" },
+  { imgUrl: img2, name: "124", price: "1.3" },
+  { imgUrl: img3, name: "446", price: "2.4" },
+  { imgUrl: img4, name: "671", price: "1.1" },
+  { imgUrl: img5, name: "978", price: "3.6" },
+];
+
+export const dataShowcase2 = [
+  { imgUrl: img6, name: "880", price: "3.1" },
+  { imgUrl: img7, name: "217", price: "2.2" },
+  { imgUrl: img8, name: "455", price: "1.7" },
+  { imgUrl: img9, name: "398", price: "1.6" },
+  { imgUrl: img10, name: "756", price: "2.9" },
+];

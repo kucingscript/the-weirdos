@@ -11,9 +11,8 @@ function Footer() {
   const lists = [
     { name: "Home", link: "home" },
     { name: "About", link: "about" },
-    { name: "Roadmap", link: "roadmap" },
-    { name: "Showcase", link: "showcase" },
     { name: "Team", link: "team" },
+    { name: "Showcase", link: "showcase" },
     { name: "Faq", link: "faq" },
   ];
 

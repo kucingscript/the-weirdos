@@ -3,6 +3,7 @@ import {
   Home,
   About,
   Team,
+  Showcase,
   Faq,
   Footer,
   ScrollToTop,
@@ -15,6 +16,7 @@ const App = () => {
       <Home />
       <About />
       <Team />
+      <Showcase />
       <Faq />
       <Footer />
       <ScrollToTop />
