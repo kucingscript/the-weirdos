@@ -46,7 +46,7 @@ function Footer() {
                   key={index}
                   href={item.link}
                   target={"_blank"}
-                  rel={"noopener"}
+                  rel={"noopener noreferrer"}
                   className="hover:scale-125 transition-all duration-200 ease-in text-2xl"
                 >
                   {item.item}
