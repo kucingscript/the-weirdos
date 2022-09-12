@@ -1,3 +1,9 @@
 # The Weirdos Bighead
 
-> :warning: **Site on progress**:
+- [x] React
+- [x] Tailwind
+- [x] GSAP
+
+## Assets
+
+[Bigheads](https://bigheads.io/)
