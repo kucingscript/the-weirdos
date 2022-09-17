@@ -1,15 +1,19 @@
 import { useState } from "react";
 import { dataTeam } from "../data/dataImages";
+
 import ConfettiComponent from "./ConfettiComponent";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 // Image Component
 const MemberComponent = ({ img, name = "", position = "" }) => {
   return (
     <div className="w-[calc(20rem - 4vw)] py-4 text-white my-4 mx-4 backdrop-blur-sm z-10 relative border-2 rounded-xl border-primary md:my-6">
       <div className="w-[15rem] mx-3 bg-[#eeedde] rounded-xl border border-primary">
-        <img
+        <LazyLoadImage
           src={img}
           alt={name}
+          width={200}
+          height={300}
           className="w-[90%] mx-auto h-auto hover:-translate-y-8 hover:scale-110 transition-all duration-200 ease-in"
         />
       </div>
