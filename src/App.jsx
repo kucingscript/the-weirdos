@@ -11,7 +11,7 @@ import {
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Home />
       <About />
@@ -20,7 +20,7 @@ const App = () => {
       <Faq />
       <Footer />
       <ScrollToTop />
-    </div>
+    </>
   );
 };
 

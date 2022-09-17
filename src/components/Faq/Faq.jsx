@@ -1,10 +1,9 @@
-import React, { useLayoutEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import Accordion from "./Accordion";
+import { dataFaq1, dataFaq2 } from "../data/dataFaq";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-import { dataFaq1, dataFaq2 } from "../data/dataFaq";
 
 function Faq() {
   const [faq1, setFaq1] = useState(dataFaq1);

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { dataTeam } from "../data/dataImages";
 import ConfettiComponent from "./ConfettiComponent";
 
@@ -27,7 +27,7 @@ function Team() {
   return (
     <section
       name="team"
-      className="w-full max-w-h-screen bg-white relative flex justify-center pb-4 overflow-hidden"
+      className="w-full min-h-screen bg-white relative flex justify-center pb-4 overflow-hidden"
     >
       <ConfettiComponent />
       {/* Container */}

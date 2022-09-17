@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { dataShowcase1, dataShowcase2 } from "../data/dataImages";
 
 import Eth from "../../assets/Nfts/Ethereum.svg";

@@ -1,4 +1,3 @@
-import React from "react";
 import TypeWriterText from "./TypeWriterText";
 import Video from "./Video";
 

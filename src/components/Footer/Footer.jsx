@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "./Banner";
 import Logo from "../Navbar/Logo";
 
@@ -29,7 +28,7 @@ function Footer() {
   return (
     <footer
       name="footer"
-      className="w-full max-w-h-screen bg-white text-primary relative flex flex-col overflow-hidden"
+      className="w-full max-h-screen bg-white text-primary relative flex flex-col overflow-hidden"
     >
       <Banner />
 

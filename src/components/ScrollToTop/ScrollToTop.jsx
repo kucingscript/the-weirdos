@@ -1,4 +1,3 @@
-import React from "react";
 import { TbArrowBottomCircle } from "react-icons/tb";
 import { Link } from "react-scroll";
 

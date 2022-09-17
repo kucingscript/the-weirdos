@@ -1,4 +1,3 @@
-import React from "react";
 import homeVideo from "../../assets/home/Home-Video.mp4";
 
 function Video() {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaLongArrowAltDown, FaLongArrowAltUp } from "react-icons/fa";
 
 function Accordion({ title, children }) {

@@ -7,10 +7,10 @@
 
 @layer base {
   body {
-    @apply font-[Sora]
+    font-family: Sora, sans-serif;
   }
 
   .logo-font {
-    @apply font-["Akaya_Telivigala"]
+    font-family: Akaya Telivigala, cursive;
   }
 }
