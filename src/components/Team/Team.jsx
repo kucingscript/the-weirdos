@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { dataTeam } from "../data/dataImages";
 
 import ConfettiComponent from "./ConfettiComponent";
@@ -23,8 +22,6 @@ const MemberComponent = ({ img, name = "", position = "" }) => {
 };
 
 function Team() {
-  const [datas, setDatas] = useState(dataTeam);
-
   return (
     <section
       name="team"
@@ -38,7 +35,7 @@ function Team() {
         </h1>
         {/* Item */}
         <div className="flex justify-center items-center flex-wrap md:justify-between">
-          {datas.map((data, index) => {
+          {dataTeam.map((data, index) => {
             return (
               <MemberComponent
                 img={data.imgUrl}

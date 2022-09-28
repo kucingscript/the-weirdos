@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { dataShowcase1, dataShowcase2 } from "../data/dataImages";
 
 import Eth from "../../assets/Nfts/Ethereum.svg";
@@ -37,9 +36,6 @@ const NftItem = ({ img, number = 0, prices = 0 }) => {
 };
 
 function Showcase() {
-  const [showcase1, setShowcase1] = useState(dataShowcase1);
-  const [showcase2, setShowcase2] = useState(dataShowcase2);
-
   return (
     <section
       name="showcase"
@@ -48,7 +44,7 @@ function Showcase() {
       {/* container up */}
       <div className="whitespace-nowrap my-8 flex animate-[move_20s_linear_infinite_none]">
         {/* Showcase Item */}
-        {showcase1.map((item, index) => {
+        {dataShowcase1.map((item, index) => {
           return (
             <NftItem
               img={item.imgUrl}
@@ -64,7 +60,7 @@ function Showcase() {
       {/* container down */}
       <div className="whitespace-nowrap my-8 flex animate-[move_15s_linear_infinite_reverse]">
         {/* Showcase Item */}
-        {showcase2.map((item, index) => {
+        {dataShowcase2.map((item, index) => {
           return (
             <NftItem
               img={item.imgUrl}

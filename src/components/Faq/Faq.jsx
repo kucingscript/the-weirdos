@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef } from "react";
 import Accordion from "./Accordion";
 import { dataFaq1, dataFaq2 } from "../data/dataFaq";
 
@@ -6,9 +6,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Faq() {
-  const [faq1, setFaq1] = useState(dataFaq1);
-  const [faq2, setFaq2] = useState(dataFaq2);
-
   const ref = useRef(null);
 
   gsap.registerPlugin(ScrollTrigger);
@@ -43,7 +40,7 @@ function Faq() {
       <div className="container flex flex-col md:flex-row justify-between md:space-x-28">
         {/* Left Side */}
         <div className="w-full px-8 md:px-0 md:w-1/2">
-          {faq1.map((faq, index) => {
+          {dataFaq1.map((faq, index) => {
             return (
               <Accordion
                 title={faq.title}
@@ -56,7 +53,7 @@ function Faq() {
 
         {/* Right SIde */}
         <div className="w-full px-8 -mt-12 md:px-0 md:w-1/2 md:-mt-0">
-          {faq2.map((faq, index) => {
+          {dataFaq2.map((faq, index) => {
             return (
               <Accordion
                 title={faq.title}

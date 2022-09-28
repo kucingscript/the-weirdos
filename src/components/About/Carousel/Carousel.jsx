@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { dataCarousel } from "../../data/dataImages";
 
@@ -12,8 +11,6 @@ import "./carousel.css";
 import { EffectCards, Pagination, Navigation, Autoplay } from "swiper";
 
 function Carousel() {
-  const [datas, setDatas] = useState(dataCarousel);
-
   return (
     <div className="md:w-[25vw] md:h-[70vh]">
       <Swiper
@@ -33,7 +30,7 @@ function Carousel() {
         grabCursor={true}
         className="mySwiper h-[45vh] w-[60vw] md:h-full md:w-full"
       >
-        {datas.map((data, index) => {
+        {dataCarousel.map((data, index) => {
           return (
             <SwiperSlide key={index}>
               <img
