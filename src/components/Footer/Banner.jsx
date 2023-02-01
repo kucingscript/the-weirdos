@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { dataBanner } from "../data/dataImages";
+import { dataBanner } from "../data/";
 
 function Banner() {
   const [datas, setDatas] = useState(dataBanner);

@@ -1,11 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { dataCarousel } from "../../data/dataImages";
+import { dataCarousel } from "../../data/";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "./carousel.css";
 
 import { EffectCards, Pagination, Navigation, Autoplay } from "swiper";
